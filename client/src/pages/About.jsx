@@ -4,7 +4,7 @@ const About = () => {
     <div className='bg-grays-100 min-h-screen w-full'>
       <div className='max-w-7xl mx-auto relative'>
         <img
-          src='./images/aboutOne.png'
+          src='./images/aboutOne.jpg'
           alt='People joining hands'
           className='w-full h-[460px] object-cover'
         />
