@@ -1,0 +1,11 @@
+--2024-05-24 05:19:33--  https://media.assettype.com/edexlive%2Fimport%2F2019%2F5%2F1%2Foriginal%2Fstudy.jpg?w=480
+Resolving media.assettype.com (media.assettype.com)... 104.22.27.212, 104.22.26.212, 172.67.27.232, ...
+Connecting to media.assettype.com (media.assettype.com)|104.22.27.212|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 43221 (42K) [image/jpeg]
+Saving to: ‘edexlive%2Fimport%2F2019%2F5%2F1%2Foriginal%2Fstudy.jpg?w=480’
+
+          edexlive%   0%[                    ]       0  --.-KB/s                        edexlive%2  73%[=============>      ]  31.15K   124KB/s               edexlive%2Fimport%2 100%[===================>]  42.21K   152KB/s    in 0.3s    
+
+2024-05-24 05:19:35 (152 KB/s) - ‘edexlive%2Fimport%2F2019%2F5%2F1%2Foriginal%2Fstudy.jpg?w=480’ saved [43221/43221]
+
