@@ -1,3 +1,4 @@
+import Faq from '../components/Home/Faq';
 import Hero from '../components/Home/Hero';
 import Offer from '../components/Home/Offer';
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div className='bg-grays-100 min-h-screen w-full'>
       <Hero />
       <Offer />
+      <Faq />
     </div>
   );
 }
