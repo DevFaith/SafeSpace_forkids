@@ -6,7 +6,7 @@ const About = () => {
         <img
           src='./images/aboutOne.jpg'
           alt='People joining hands'
-          className='w-full h-[460px] object-cover'
+          className='w-full h-[560px] object-cover'
         />
         <div className='absolute top-0 left-0 h-full w-full bg-black/60'></div>
       </div>
