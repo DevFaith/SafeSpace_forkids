@@ -8,4 +8,5 @@ We offer Validated programs which converse with our Kids Growth and Mindset
 ![Screenshot 2024-05-26 010450](https://github.com/DevFaith/Inno-Development/assets/148878314/ac6529af-4fb3-442f-b95e-5d524451d295)
 
 ### Ready to Partner with us?
-![Uploading Screenshot 2024-05-26 011158.png…]()
+![Screenshot 2024-05-26 011158](https://github.com/DevFaith/Inno-Development/assets/148878314/0e5f15aa-cae9-4929-9e8c-11e58d9d7f0f)
+
