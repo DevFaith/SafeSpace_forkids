@@ -15,7 +15,7 @@ const Header = () => {
 
       <div className='flex justify-start gap-20 items-center'>
         <Link to={'/'}>
-          <h2 className='text-2xl md:text-3xl text-nowrap'>SafeSpace</h2>
+          <h2 className='text-2xl md:text-3xl text-nowrap'>SafeSpace<span className='text-sm md:text-base text-primary '>_forkids</span></h2>
         </Link>
         <li className='hidden lg:flex justify-start gap-2 items-center'>
           {navs.map((nav, index) => {
