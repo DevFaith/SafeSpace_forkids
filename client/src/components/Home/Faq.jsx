@@ -34,9 +34,11 @@ const Faq = () => {
       </div>
       <p className='mt-10 text-center'>Din&apos;t get answer to your questions or want to make an inquiry?</p>
       <div className='w-full flex justify-center mt-3'>
+        <a href="/contact">
         <button
           className='bg-blues border border-blues hover:border-blues-600 px-6 py-2 rounded-md hover:bg-blues-600 text-grays-100 duration-200'
         >Contact Us</button>
+        </a>
       </div>
     </div>
   );
