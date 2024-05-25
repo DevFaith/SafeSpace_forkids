@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 
 const Home = React.lazy(() => import('./pages/Home'));
 const About = React.lazy(() => import('./pages/About'));
+const Programs = React.lazy(() => import('./pages/Programs'));
+const Contact = React.lazy(() => import('./pages/Contact'));
 const Colors = React.lazy(() => import('./pages/Colors'));
 const Login = React.lazy(() => import('./pages/Login'));
 const Signup = React.lazy(() => import('./pages/Signup'));
@@ -21,6 +23,8 @@ const App = () => {
             <Route path='/' element={<Home />} />
             <Route path='/colors' element={<Colors />} />
             <Route path='/about' element={<About />} />
+            <Route path='/Programs' element={<Programs />} />
+            <Route path='/contact' element={<Contact />} />
             <Route path='/login' element={<Login />} />
             <Route path='/signup' element={<Signup />} />
           </Routes>
