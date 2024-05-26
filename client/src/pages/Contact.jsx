@@ -20,7 +20,7 @@ const Contact = () => {
           
         
           <h2 className='text-3xl md:text-4xl text-reds'>Give us a Call and Get intouch</h2>
-          <p className='mt-10 text-xl md:max-w-[60%]'>And we will not hesitate to call back. <br />no.+254 761000000 <br /> <br />Email @ <br /><a href="waitherafaith@outlook.com">waitherafaith@outlook.com</a></p>
+          <p className='mt-10 text-xl md:max-w-[60%]'>And we will not hesitate to pick it up or even call back. <br />no.+254 761000000 <br /> <br />Email @ <br /><a href="waitherafaith@outlook.com">waitherafaith@outlook.com</a></p>
           <h2 className='text-3xl mt-32 md:text-4xl text-reds'>Social media handles</h2>
           <FaLinkedin className='h-8 w-8'/><h1>Linkedin</h1>
           <IoLogoWhatsapp className='h-8 w-8'/><h1>Whatsup</h1>
