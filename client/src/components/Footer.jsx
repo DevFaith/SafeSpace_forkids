@@ -9,9 +9,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="fixed z-20 ">
-        <Api />
-      </div>
+      
     </div>
   )
 }
