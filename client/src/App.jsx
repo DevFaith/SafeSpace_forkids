@@ -16,10 +16,10 @@ const App = () => {
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => {
-    const storedTasks = localStorage.getItem('tasks');
-    if (storedTasks) {
-      setTasks(JSON.parse(storedTasks));
-    }
+      const storedTasks =  localStorage.getItem('tasks');
+      if (storedTasks) {
+        setTasks(JSON.parse(storedTasks));
+      }
   }, []);
 
   useEffect(() => {
