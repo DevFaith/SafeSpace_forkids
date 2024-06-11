@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { navs } from '../data/dataOne';
 import { FaBarsStaggered } from 'react-icons/fa6';
@@ -6,6 +6,10 @@ import { IoMdClose } from 'react-icons/io';
 
 const Header = () => {
   const [dropdown, setDropdown] = useState(false);
+
+  useEffect(() => {
+      console.log("Env: ", import.meta.env)
+  }, []);
 
   let location = useLocation();
   location = location.pathname.split('/')[1];
