@@ -1,5 +1,5 @@
 const headers = {
-    Authorization: `Bearer sk-proj-zz280ZVE1YXlp2YeMFUcT3BlbkFJnmk5Oovvy66qyNQGk6pr`,
+    Authorization: `Bearer ${import.meta.env.VITE_APP_OPENAI_API_KEY}`,
     "Content-Type": "application/json",
 };
 
