@@ -8,7 +8,7 @@ We offer Validated programs which converse with our Kids Growth and Mindset
 ### Ready to Partner with us?  🤝  🤝
 Give us a Call 📱 and Get intouch
 And we will not hesitate to call back.
-no.+254 761000000
+no.+254 7693 137 12
 
 Email @ 📧
 waitherafaith@outlook.com
