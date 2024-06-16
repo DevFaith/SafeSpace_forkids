@@ -13,7 +13,9 @@ const getAudioResponse = async (text) => {
     });
 
     try {
+        console.log(`Sending audio request to: ${apiUrl}`);
         const response = await fetch(apiUrl, { method: "POST", headers, body });
+        console.log(`Audio response status: ${response.status}`);
         if (!response.ok) {
             throw new Error(`Audio API request failed: ${response.statusText}`);
         }
@@ -30,7 +32,7 @@ const getTextResponse = async (systemContext, question) => {
     const apiUrl = "https://api.openai.com/v1/chat/completions";
 
     const body = JSON.stringify({
-        model: "gpt-4o",
+        model: "gpt-4",
         messages: [
             { role: "system", content: systemContext },
             { role: "user", content: question },
@@ -38,7 +40,9 @@ const getTextResponse = async (systemContext, question) => {
     });
 
     try {
+        console.log(`Sending text request to: ${apiUrl}`);
         const response = await fetch(apiUrl, { method: "POST", headers, body });
+        console.log(`Text response status: ${response.status}`);
         if (!response.ok) {
             throw new Error(`Text API request failed: ${response.statusText}`);
         }
@@ -55,8 +59,10 @@ const getTextResponse = async (systemContext, question) => {
 
 export const getAnswer = async (context, query) => {
     try {
+        console.log("Getting text answer...");
         const answerText = await getTextResponse(context, query);
         console.log("ANS TXT:", answerText);
+        console.log("Getting audio answer...");
         const answerAudio = await getAudioResponse(answerText);
         return { answerText, answerAudio };
     } catch (error) {
@@ -81,7 +87,7 @@ export const systemContexts = {
 }
 
 export const queries = [
-    "I am curious about Saturn's noon titan. Do you think we will find life there. What other places might there be life in the solar system?",
+    "I am curious about Saturn's noon titan. Do you think we will find life there? What other places might there be life in the solar system?",
     "What is the difference between a star and a planet?",
     "How do we know the age of the universe?",
     "What is the difference between a meteor and a meteorite?",
