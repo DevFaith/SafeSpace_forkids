@@ -25,7 +25,7 @@ const Contact = () => {
           <FaLinkedin className='h-8 w-8'/><h1>Linkedin</h1>
           <IoLogoWhatsapp className='h-8 w-8'/><h1>Whatsup</h1>
           
-          <p className='mt-10 text-xl md:max-w-[60%]'>
+          <p className='mt-10 text-xl md:max-w-[60%]'> 
 
 </p>
           
